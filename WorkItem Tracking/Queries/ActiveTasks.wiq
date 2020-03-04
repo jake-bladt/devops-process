@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkItemQuery Version="1">
+  <Wiql>
+    SELECT [System.Id], 
+           [Microsoft.VSTS.Common.Priority], 
+           [System.AssignedTo], 
+           [System.Title] 
+      FROM WorkItems
+     WHERE [System.TeamProject] = @project 
+       AND [System.IterationPath] UNDER '$$PROJECTNAME$$'
+       AND [System.WorkItemType] = 'Task' 
+       AND [System.State] &lt;&gt; 'Done'
+  ORDER BY [Microsoft.VSTS.Common.Priority], 
+           [System.Id]
+    </Wiql>
+</WorkItemQuery>
