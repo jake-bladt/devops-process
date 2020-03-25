@@ -286,7 +286,6 @@
                 <Group Label="Status">
                   <Column PercentWidth="100">
                     <Control FieldName="System.AssignedTo" EmptyText="&lt;No one&gt;" Type="FieldControl" Label="Assi&amp;gned To" LabelPosition="Left" />
-                    <Control FieldName="Transperfect.TechOps.Epic.ContactPerson" EmptyText="&lt;No one&gt;" Type="FieldControl" Label="Contact Person" LabelPosition="Left" />
                     <Control FieldName="System.State" Type="FieldControl" Label="Stat&amp;e" LabelPosition="Left" />
                     <Control FieldName="System.Reason" Type="FieldControl" Label="Reason" LabelPosition="Left" />
                   </Column>
@@ -296,6 +295,7 @@
                     <Control FieldName="Microsoft.VSTS.Common.Priority" Type="FieldControl" Label="Priority" LabelPosition="Left" />
                     <Control FieldName="Microsoft.VSTS.Scheduling.StartDate" Type="FieldControl" Label="Start Date" LabelPosition="Left" />
                     <Control FieldName="Microsoft.VSTS.Scheduling.TargetDate" Type="DateTimeControl" Label="Target Date" LabelPosition="Left" />
+                    <Control FieldName="Transperfect.TechOps.Epic.ContactPerson" Type="FieldControl" Label="Contact Person" LabelPosition="Left" />
                   </Column>
                 </Group>
               </Column>
