@@ -247,7 +247,6 @@
                       <LinkColumn RefName="System.ID" />
                       <LinkColumn RefName="System.Title" />
                       <LinkColumn RefName="System.AssignedTo" />
-                      <LinkColumn RefName="Transperfect.TechOps.Epic.ContactPerson" />
                       <LinkColumn RefName="System.State" />
                       <LinkColumn LinkAttribute="System.Links.Comment" />
                     </LinkColumns>
@@ -285,6 +284,7 @@
                 <Group Label="Status">
                   <Column PercentWidth="100">
                     <Control FieldName="System.AssignedTo" EmptyText="&lt;No one&gt;" Type="FieldControl" Label="Assi&amp;gned To" LabelPosition="Left" />
+                    <Control FieldName="Transperfect.TechOps.Epic.ContactPerson" EmptyText="&lt;No one&gt;" Type="FieldControl" Label="Contact Person" LabelPosition="Left" />
                     <Control FieldName="System.State" Type="FieldControl" Label="Stat&amp;e" LabelPosition="Left" />
                     <Control FieldName="System.Reason" Type="FieldControl" Label="Reason" LabelPosition="Left" />
                   </Column>
