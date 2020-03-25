@@ -16,6 +16,11 @@
         <VALIDUSER />
         <HELPTEXT>The person currently owning the epic</HELPTEXT>
       </FIELD>
+      <FIELD name="Contact Person" refname="Transperfect.TechOps.Epic.ContactPerson" type="String" reportable="dimension" syncnamechanges="true">
+        <ALLOWEXISTINGVALUE />
+        <VALIDUSER />
+        <HELPTEXT>The point-of-contact person for this epic</HELPTEXT>
+      </FIELD>
       <FIELD name="Area Path" refname="System.AreaPath" type="TreePath" reportable="dimension">
         <HELPTEXT>The area of the product with which this epic is associated</HELPTEXT>
       </FIELD>
@@ -242,6 +247,7 @@
                       <LinkColumn RefName="System.ID" />
                       <LinkColumn RefName="System.Title" />
                       <LinkColumn RefName="System.AssignedTo" />
+                      <LinkColumn RefName="Transperfect.TechOps.Epic.ContactPerson" />
                       <LinkColumn RefName="System.State" />
                       <LinkColumn LinkAttribute="System.Links.Comment" />
                     </LinkColumns>

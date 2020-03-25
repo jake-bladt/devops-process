@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProcessTemplate>
   <metadata>
-    <name>Basic</name>
-    <description>This template is flexible for any process and great for teams getting started with Azure DevOps.</description>
-    <version type="B8A3A935-7E91-48B8-A94C-606D37C3E9F2" major="17" minor="18" />
+    <name>DevOps</name>
+    <description>A modified version of the Basic process for use by TechOps-DevOps.</description>
+    <version type="4e0500e7-f9f6-4df2-908b-607b9256b6f0" major="20" minor="2" />
     <plugins>
       <plugin name="Microsoft.ProjectCreationWizard.Classification" wizardPage="false" />
       <plugin name="Microsoft.ProjectCreationWizard.Groups" wizardPage="false" />
